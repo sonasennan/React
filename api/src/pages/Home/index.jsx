@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import Button from '@mui/material/Button';
 
 function Welcome()
 {
@@ -16,8 +16,8 @@ function Welcome()
         <>
         <div id="d">
         <h1>Home Page...</h1>
-        <button onClick={handleCounter}>Counter</button>
-        <button onClick={handleDash}>User Details</button>
+        <Button variant="outlined" color="error" size="small" onClick={handleCounter} disableElevation>Counter</Button> &nbsp;  
+        <Button variant="outlined" size="small" onClick={handleDash} disableElevation>User Details</Button>
         </div>
         </>
         )
