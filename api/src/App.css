@@ -56,3 +56,54 @@
   background-color: #828681;
 }
 
+#my-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid #ccc;
+  background-color: #f9f9f9; */
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+#form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: brown;
+  color: antiquewhite;
+  font-size: 20px;
+}
+

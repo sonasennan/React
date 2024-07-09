@@ -12,12 +12,22 @@ function Welcome()
         navigate ("/dashboard");
     }
 
+    const handleListProducts =() =>{
+        navigate("/product")
+    }
+
+    // const handleForm =() =>{
+    //     navigate("/form")
+    // }
+
     return(
         <>
-        <div id="d">
+        <div>
         <h1>Home Page...</h1>
         <Button variant="outlined" color="error" size="small" onClick={handleCounter} disableElevation>Counter</Button> &nbsp;  
         <Button variant="outlined" size="small" onClick={handleDash} disableElevation>User Details</Button>
+        <Button variant="outlined" size="small" onClick={handleListProducts} disableElevation>View Products</Button>
+        {/* <Button variant="outlined" size="small" onClick={handleForm} disableElevation>Modal</Button> */}
         </div>
         </>
         )

@@ -9,10 +9,10 @@ const initialState = {
 
 export const getUserData = createAsyncThunk(
     'userData/fetchUsers',
-    async () =>
+    async (data) =>
         {
-            const response = await fetchUsers();
-            console.log(response,"response");
+            const response = await fetchUsers(data);
+
             return response;
         },
 );
